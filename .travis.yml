@@ -1,0 +1,27 @@
+language: node_js
+node_js: '10'
+os:
+  - linux
+  - osx
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn --frozen-lockfile --non-interactive
+
+jobs:
+  include:
+    - stage: deploy
+      name: "Deploy"
+      before_deploy:
+        - yarn build
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $ACCESS_TOKEN
+        keep_history: false
+        local_dir: ./dist
+        on:
+          branch: master
