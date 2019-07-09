@@ -13,8 +13,10 @@
       >
         <span class="mr-2">GitHub</span>
       </v-btn>
+      <v-btn to="about" icon>
+        <v-icon>info</v-icon>
+      </v-btn>
     </v-toolbar>
-
     <v-content>
       <RouterView/>
     </v-content>
@@ -23,14 +25,6 @@
 
 <script>
 export default {
-  name: 'App',
-  components: {
-
-  },
-  data () {
-    return {
-
-    }
-  }
+  name: 'App'
 }
 </script>
