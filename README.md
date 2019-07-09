@@ -1,29 +1,7 @@
-# hackint-frontend
+# 自函子范畴上的幺半裙
 
-## Project setup
-```
-yarn install
-```
+参加 The Hack 2019 专用团队网站
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## LICENSE
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Follow [MIT LICENSE](LICENSE)
