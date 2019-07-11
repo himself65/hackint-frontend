@@ -88,7 +88,8 @@ export default {
           avatar: 'xjj.png',
           description: '',
           color: 'teal darken-1',
-          github: ''
+          github: 'zxj5470',
+          zhihu: ''
         },
         {
           name: '扩散性百万甜面包',
